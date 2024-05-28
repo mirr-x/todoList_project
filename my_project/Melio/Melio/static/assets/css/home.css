@@ -1,0 +1,568 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&family=Quicksand:wght@300..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap");
+
+body {
+  background-color: #fff;
+}
+
+section:first-of-type {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+header .logo img {
+  width: 100px;
+  height: 200px;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+header .content a {
+  display: flex;
+  all: unset;
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+header .content a svg {
+  width: 14px;
+  height: 14px;
+  margin-bottom: 6px;
+  margin-right: 3px;
+  fill: black;
+}
+
+header a {
+  all: unset;
+  color: black;
+  padding: 10px 45px;
+  background-color: transparent;
+  border: 1.5px solid black;
+  border-radius: 9999999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header a:hover {
+  color: rgba(0, 0, 0, 0.664);
+}
+
+.home-hero {
+  padding-top: 60px;
+}
+
+.home-hero .container {
+  max-width: 1430px !important;
+}
+
+.home-hero .container h1 {
+  margin: 0 0 40px;
+  font-size: 42px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.home-hero .container .btn-button {
+  padding: 15px 40px;
+  border: 1.5px solid black;
+  border-radius: 25px;
+  background-color: transparent;
+  color: black;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color, background-color 0.1s ease;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.home-hero .container .btn-button:hover {
+  color: rgba(0, 0, 0, 0.664);
+}
+
+.home-hero .container .handle-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.home-hero .container .handle-imgv2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.home-hero .container h4 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.home-hero .container p {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+main .main-content {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 65px;
+  max-width: 1008px;
+  margin: 0 auto;
+}
+
+main .main-content h1 {
+  font-size: 75px;
+  color: #555;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+main .main-content a {
+  padding: 20px 90px;
+  border: 1.5px solid #fff;
+  border-radius: 25px;
+  background-color: black;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color, background-color 0.1s ease;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main .main-content ul {
+  all: unset;
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px;
+  padding-top: 85px;
+}
+
+main .main-content ul li.list-item {
+  all: unset;
+  position: relative;
+  padding: 15px 80px 15px 30px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  background-color: transparent;
+  color: black;
+  white-space: nowrap;
+}
+
+main .main-content ul li.list-item::after {
+  position: absolute;
+  content: "1";
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  color: #fff;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+main .main-content ul li.list-item a:first-of-type {
+  all: unset;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+main .main-content ul li.list-item a:first-of-type:hover {
+  color: #5e5c5c;
+}
+
+main .main-content ul li.list-item a:last-of-type {
+  all: unset;
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  top: 25%;
+  right: 8%;
+  padding: 8px 15px;
+  background-color: #6e6c6c;
+  color: #fff;
+  border-radius: 999999999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+main .main-content ul li.list-item a:last-of-type:hover {
+  background-color: #5e5c5c;
+}
+
+main .main-content ul li.list-item a:last-of-type svg {
+  width: 10px;
+  height: 10px;
+  fill: #fff;
+}
+
+main .main-contentv2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+main .main-contentv2 h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #555;
+  padding-bottom: 70px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+main .main-contentv2 .handle-input {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  padding: 20px 40px;
+  border: 2px solid black;
+  border-radius: 9999999px;
+}
+
+main .main-contentv2 .handle-input svg {
+  width: 20px;
+  height: 20px;
+}
+
+main .main-contentv2 .handle-input input {
+  all: unset;
+  width: 100%;
+}
+
+main.bd-layout {
+  display: grid;
+  grid-template-areas: "sidebar main";
+  grid-template-columns: 1.5fr 4.5fr;
+  gap: 1.5rem;
+}
+
+main.bd-layout aside.bd-sidebar {
+  grid-area: sidebar;
+  position: sticky;
+  top: 5rem;
+  height: calc(101.3vh - 6rem);
+  overflow-y: auto;
+}
+
+main.bd-layout aside.bd-sidebar ul.aside-content {
+  all: unset;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+main.bd-layout aside.bd-sidebar ul.aside-content li {
+  all: unset;
+  position: relative;
+}
+
+main.bd-layout aside.bd-sidebar ul.aside-content li:not(.active):hover a {
+  background-color: rgb(245, 245, 245);
+}
+
+main.bd-layout aside.bd-sidebar ul.aside-content li.active a {
+  background-color: #bebebe;
+}
+
+main.bd-layout aside.bd-sidebar ul.aside-content li a {
+  all: unset;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: transparent;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+main.bd-layout aside.bd-sidebar ul.aside-content li svg {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  width: 15px;
+  height: 15px;
+  transition: all 0.3s ease;
+}
+
+main.bd-layout aside.bd-sidebar ul.aside-content li:not(.active):hover svg {
+  transform: translateX(10px);
+}
+
+main.main-contentv4 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  grid-area: main;
+  position: sticky;
+  top: 5rem;
+  height: calc(101.3vh - 6rem);
+  overflow-y: auto;
+}
+
+main.main-contentv4 .add-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+main.main-contentv4 .add-text a {
+  box-sizing: border-box;
+  position: relative;
+  padding: 10px 40px;
+  padding-left: 50px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+main.main-contentv4 .add-text a:hover {
+  color: rgba(0, 0, 0, 0.664);
+}
+
+main.main-contentv4 .add-text a svg {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  width: 15px;
+  height: 15px;
+}
+
+main.main-contentv4 .check-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px 20px;
+  border: 1px solid #d6d6d8;
+  border-radius: 8px;
+}
+
+main.main-contentv4 .check-input .v1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+main.main-contentv4 .check-input .v1 input {
+  all: unset;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #d6d6d8;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+main.main-contentv4 .check-input .v1 input::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 12px;
+  height: 12px;
+  background-image: url("/home/melio/Desktop/CHAMALI/SVG/check-white-4280ab4c53ca62fad039199f10c3964076dae155a1335788.svg");
+  pointer-events: none;
+}
+
+main.main-contentv4 .check-input .v1 input:checked {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+main.main-contentv4 .check-input .v1 a {
+  all: unset;
+  color: #000000;
+  transition: all 0.2s ease;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+main.main-contentv4 .check-input .v1 a:hover {
+  text-decoration: underline;
+}
+
+main.main-contentv4 .check-input .v2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  gap: 15px;
+}
+
+main.main-contentv4 .check-input .v2 svg {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  fill: black;
+  transition: all 0.2s ease;
+}
+
+main.main-contentv4 .check-input .v2 svg:hover {
+  fill: #6e6c6c;
+}
+
+main.main-contentv5 {
+  padding: 70px 0;
+  max-width: 840px;
+  overflow-wrap: break-word;
+  margin: 0 auto;
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+main.main-contentv5 .content h1 {
+  font-size: 50px;
+  margin-bottom: 55px;
+}
+
+main.main-contentv5 .content {
+  all: unset;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+main.main-contentv6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+main.main-contentv6 h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #555;
+  padding-bottom: 70px;
+  font-family: Quicksand, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+main.main-contentv6 textarea {
+  all: unset;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  resize: vertical;
+  min-height: 310px;
+  font-size: 14px;
+  border-width: 2px;
+  border: 2px solid #e7e7e9;
+  border-radius: 12px;
+  background-color: #fff;
+  font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  width: 99%;
+  padding: 18px 20px;
+  transition: background-color 200ms ease, outline 200ms ease, color 200ms ease,
+    box-shadow 200ms ease, -webkit-box-shadow 200ms ease;
+  color: #0d0c22;
+  cursor: text;
+}
+
+main.log-in,
+main.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 200px 0;
+  max-width: 750px;
+}
+
+main.sign-up .full-name {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}

@@ -1,0 +1,11 @@
+{% extends 'home/base.html' %} {% block main %}
+
+<main class="main-contentv6">
+  <h1>Add Content</h1>
+  <form style="width: 100%" method="post">
+    {% csrf_token %}{{ form.content }}
+    <input type="submit" value="Save" />
+  </form>
+</main>
+
+{% endblock main %}
